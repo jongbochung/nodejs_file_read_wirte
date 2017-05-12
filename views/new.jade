@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+  body
+    h1
+      a(href='/home') Client Management System
+    ul
+      each home in homes
+        li
+          a(href='/home/'+home)= home
+    article
+      form(action='/home' method='post')
+        p
+          input(type='text' name='title' placeholder='clinet name')
+        p
+          textarea(name='description')
+        p
+          input(type='submit')

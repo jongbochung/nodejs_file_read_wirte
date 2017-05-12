@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+  body
+    h1
+      a(href='/home') Client Management System
+    ul
+      each home in homes
+        li
+          a(href='/home/'+home)= home
+    article
+      h2= title
+      = description
+    div
+    p
+      a(href='/home/new') Add New Client

@@ -1,0 +1,24 @@
+{
+  "name": "nodeje_file_read_write",
+  "version": "1.0.0",
+  "description": "file read and write with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jongbochung/nodejs_file_read_wirte.git"
+  },
+  "author": "JASON CHUNG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jongbochung/nodejs_file_read_wirte/issues"
+  },
+  "homepage": "https://github.com/jongbochung/nodejs_file_read_wirte#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jade": "^1.11.0"
+  }
+}
